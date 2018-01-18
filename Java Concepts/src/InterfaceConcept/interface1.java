@@ -21,7 +21,7 @@ interface A4 extends A1,A2,A3 //interface can extends more than 1 interface
 {
 	
 }
-
+                         //Classes has to implement them instead of extend
 class c3 implements A4   //Refer it bcz when we make c1 it consider it has declared one which is present ion other java file
 {
 
