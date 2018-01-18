@@ -2,14 +2,16 @@ package staticConcept;
 
 public class staticBlock {
 
-	static void block()
+	public static void block()
 	{
 		System.out.println("This Static Block");
 	}
 	public static void main(String[] args) {
 		
 		block();
-
+		
+		//or
+       //staticBlock.block():
 	}
 
 }

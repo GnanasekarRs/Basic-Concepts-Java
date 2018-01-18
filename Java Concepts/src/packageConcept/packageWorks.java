@@ -2,8 +2,8 @@ package packageConcept;
 
 
 
- public class packageWorks {    //Need to be in Public
-	 public int add(int a, int b) //Need to be in Public
+ public class packageWorks {         //Need to be in Public Refer
+	 public int add(int a, int b)    //Need to be in Public
 		{
 			return a+b;
 		}
