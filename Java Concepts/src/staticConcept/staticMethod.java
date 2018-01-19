@@ -5,7 +5,7 @@ public class staticMethod {
 	static int loverRollno = 48;
 	static String Name = "Ex-M";
 	
-	static void display()
+    public static void display()
 	{
 	System.out.println(Name);
 	System.out.println(loverRollno);
