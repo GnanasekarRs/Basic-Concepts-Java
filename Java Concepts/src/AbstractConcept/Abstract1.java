@@ -43,7 +43,7 @@ public class Abstract1 extends c {
 
 	public static void main(String[] args) {
 		
-		c obj = new c();                          // --> OBJECTS CAN'T BE CREATED FOR ABSTRATION CLASS SO WE CREAETED FOR NORMAL CLASS C
+		c obj = new c();  // --> OBJECTS CAN'T BE CREATED FOR ABSTRATION CLASS SO WE CREAETED FOR NORMAL CLASS C
 		obj.method1();
 		obj.method2();
 		obj.method3();

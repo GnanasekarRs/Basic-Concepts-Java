@@ -2,8 +2,9 @@ package AbstractConcept;
 
 abstract class parentClass  //abstract must be Present
 {
-	public abstract void sound(); // abstract can have abstract methods and non abstract methods
+	public abstract void sound(); // abstract can have abstract methods with signature and non abstract methods with body
 }                                 //But non abstract class can't have any abstract methods inside its class
+                                  //Extends Needed
 public class simpleAbstractLion extends parentClass {
 
 	public static void main(String[] args) {
@@ -38,7 +39,9 @@ public class simpleAbstractLion extends parentClass {
 Key Points:
 
 An abstract class has no use until unless it is extended by some other class.
-If you declare an abstract method in a class then you must declare the class abstract as well. you can’t have abstract method in a concrete class. It’s vice versa is not always true: If a class is not having any abstract method then also it can be marked as abstract.
+If you declare an abstract method in a class then you must declare the class abstract as well. 
+you can’t have abstract method in a concrete class.
+It’s vice versa is not always true: If a class is not having any abstract method then also it can be marked as abstract.
 It can have non-abstract method (concrete) as well.
 I have covered the rules and examples of abstract methods in a separate tutorial, You can find the guide here: Abstract method in Java
 For now lets just see some basics and example of abstract method.

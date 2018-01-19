@@ -25,7 +25,8 @@ public class parameterizedConstructorExample2 {
 		
 	/*  Method2   
 	    o/p:
-     	10 10  
+     	10 
+     	100  
     */
 	/*	parameterizedConstructorExample2 obj2 = new parameterizedConstructorExample2();
 		System.out.println(obj2.getValue());
