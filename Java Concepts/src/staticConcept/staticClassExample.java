@@ -1,5 +1,14 @@
 package staticConcept;
 
+/**
+ * A class can be made static only if it is a nested class.
+
+Nested static class doesn’t need reference of Outer class
+A static class cannot access non-static members of the Outer class
+ * @author Gnanasekar Rs
+ *
+ */
+
 class staticClassExample{
    private static String str = "BeginnersBook";
 

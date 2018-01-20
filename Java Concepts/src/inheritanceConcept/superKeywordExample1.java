@@ -9,7 +9,7 @@ public class superKeywordExample1 extends keyword{
 	int num =110;
 	void display()
 	{
-		//System.out.println(num);
+		System.out.println(num);
 		System.out.println(super.num);
 	}
 	public static void main(String[] args) {

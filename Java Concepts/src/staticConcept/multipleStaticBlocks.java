@@ -5,7 +5,8 @@ public class multipleStaticBlocks {
 	static int Number;
 	static String block;
 	
-	static  // 2 Static Block Declared and 1st static method gets implemented then only static gets implemented ,Hence here value gets replaced in Final call
+	static  // 2 Static Block Declared and 1st static method gets implemented then only static gets implemented ,
+	//Hence here value gets replaced in Final call
 	{
 		System.out.println("Static Method 1");
 		Number = 01;

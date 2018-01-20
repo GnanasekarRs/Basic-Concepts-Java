@@ -25,3 +25,30 @@ public class staticVariableReferstoClass {
 //eVEN WHEN WE CREATRE OBJECT AND ASSIGN VALUE THEN ITS PURLY WORKS ON CLASS NOT ON OBJECT
 //WE CAN'T ACCESS CLASS VARIABLE DIRECTLY IN MAIN CLASS,WE HAVE TO CREATE OBJ TO ACCESS THESE
 //WHEN WE DECLARE THE IT IN STATIC THEN WE CAN ACCESS THOSE VARIABLE IN MAIN METHOD AND CLASS MEMBERS
+
+
+/**
+
+public class staticVariableReferstoClass {
+	static int empid = 85 ;
+    String empName; 
+
+    static void display()
+    {
+    	System.out.println("fdjhfjksdh");
+    }
+	public static void main(String[] args) {
+		
+		//new staticVariableReferstoClass();  -->No need to create objects
+		//staticVariableReferstoClass obj1 = new staticVariableReferstoClass();  -->No need to create Objects for static Methods variable and class
+		
+
+		System.out.println(empid);
+		System.out.println(staticVariableReferstoClass.empid=105);
+		staticVariableReferstoClass.display();
+		display();
+		
+					
+	}
+}
+**/
