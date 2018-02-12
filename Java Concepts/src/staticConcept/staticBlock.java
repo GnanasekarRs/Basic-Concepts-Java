@@ -11,7 +11,7 @@ public class staticBlock {
 		block();
 		
 		//or
-       //staticBlock.block():
+        //staticBlock.block();
 	}
 
 }

@@ -1,0 +1,9 @@
+Static Variables:
+1) When we declared Static Variables then it can be accessed directly inside in main class
+2) Static variable is Purely class base,even creating obj to call static Variable it will waste the obj.
+3) Here Static variable not based on Object its based on Class
+
+Static Methods:
+1) Static Method can access only static variables
+2) Directly Access Static Methods without Creating the OBJECTS.
+3) OR we can access By classname.methodName
