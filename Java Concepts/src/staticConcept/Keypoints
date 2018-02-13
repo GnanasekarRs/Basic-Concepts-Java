@@ -10,4 +10,4 @@ Static Methods:
 
 Static class:
 1) Static class is not possible in java, we have to make nested static class to achieve
-2) Static class can have both static methods and non static method
+2) Static class can have both static methods and non static method.
