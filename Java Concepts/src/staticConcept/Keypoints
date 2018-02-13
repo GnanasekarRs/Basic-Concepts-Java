@@ -4,6 +4,6 @@ Static Variables:
 3) Here Static variable not based on Object its based on Class
 
 Static Methods:
-1) Static Method can access only static variables
+1) Static Method can access only static variables.
 2) Directly Access Static Methods without Creating the OBJECTS.
-3) OR we can access By classname.methodName
+3) OR we can access By classname.methodName.
