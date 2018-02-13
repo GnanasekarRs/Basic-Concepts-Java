@@ -7,3 +7,7 @@ Static Methods:
 1) Static Method can access only static variables.
 2) Directly Access Static Methods without Creating the OBJECTS.
 3) OR we can access By classname.methodName.
+
+Static class:
+1) Static class is not possible in java, we have to make nested static class to achieve
+2) Static class can have both static methods and non static method
